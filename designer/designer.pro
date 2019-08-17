@@ -43,10 +43,14 @@ SOURCES = $${YFLY_SOURCES}
 HEADERS +=qfl_designer_plugin_combination.h \
            qfl_designer_plugin_general.h  \
            qfl_designer_analog_clock_interface.h \
-           qfl_designer_meter_interface.h
+           qfl_designer_meter_interface.h \
+           qfl_designer_pot_interface.h \
+           qfl_designer_needle_indicator_interface.h
 
 
 SOURCES += qfl_designer_plugin_combination.cpp \
            qfl_designer_plugin_general.cpp   \
            qfl_designer_analog_clock_interface.cpp \
-           qfl_designer_meter_interface.cpp
+           qfl_designer_meter_interface.cpp \
+           qfl_designer_pot_interface.cpp \
+           qfl_designer_needle_indicator_interface.cpp
